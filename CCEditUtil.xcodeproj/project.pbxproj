@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58B0BB1A1EB326EC00D50F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB191EB326EC00D50F34 /* main.m */; };
+		58B0BB1D1EB326EC00D50F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB1C1EB326EC00D50F34 /* AppDelegate.m */; };
+		58B0BB201EB326EC00D50F34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB1F1EB326EC00D50F34 /* ViewController.m */; };
+		58B0BB231EB326EC00D50F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B0BB211EB326EC00D50F34 /* Main.storyboard */; };
+		58B0BB251EB326EC00D50F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B0BB241EB326EC00D50F34 /* Assets.xcassets */; };
+		58B0BB281EB326EC00D50F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B0BB261EB326EC00D50F34 /* LaunchScreen.storyboard */; };
+		58B0BB4E1EB32FA100D50F34 /* NSString+cc_Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB321EB32FA100D50F34 /* NSString+cc_Validate.m */; };
+		58B0BB4F1EB32FA100D50F34 /* CCEditBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB361EB32FA100D50F34 /* CCEditBaseController.m */; };
+		58B0BB501EB32FA100D50F34 /* CCEditMultiEnterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB381EB32FA100D50F34 /* CCEditMultiEnterController.m */; };
+		58B0BB511EB32FA100D50F34 /* CCEditMultiEnterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B0BB391EB32FA100D50F34 /* CCEditMultiEnterController.xib */; };
+		58B0BB521EB32FA100D50F34 /* CCEditSingleEnterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB3B1EB32FA100D50F34 /* CCEditSingleEnterController.m */; };
+		58B0BB531EB32FA100D50F34 /* CCEditSingleEnterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B0BB3C1EB32FA100D50F34 /* CCEditSingleEnterController.xib */; };
+		58B0BB541EB32FA100D50F34 /* CCEditSingleSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB3E1EB32FA100D50F34 /* CCEditSingleSelectController.m */; };
+		58B0BB551EB32FA100D50F34 /* CCEditSingleSelectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B0BB3F1EB32FA100D50F34 /* CCEditSingleSelectController.xib */; };
+		58B0BB561EB32FA100D50F34 /* CCEditBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB421EB32FA100D50F34 /* CCEditBase.m */; };
+		58B0BB571EB32FA100D50F34 /* CCEditMultiEnter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB441EB32FA100D50F34 /* CCEditMultiEnter.m */; };
+		58B0BB581EB32FA100D50F34 /* CCEditSingleEnter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB461EB32FA100D50F34 /* CCEditSingleEnter.m */; };
+		58B0BB591EB32FA100D50F34 /* CCEditSingleSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB481EB32FA100D50F34 /* CCEditSingleSelect.m */; };
+		58B0BB5A1EB32FA100D50F34 /* CCTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB4D1EB32FA100D50F34 /* CCTextView.m */; };
+		58EAD8451EB87A1800EE69DF /* Two.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58EAD8441EB87A1800EE69DF /* Two.storyboard */; };
+		58EAD8481EB87B7E00EE69DF /* One.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58EAD8461EB87B7E00EE69DF /* One.storyboard */; };
+		58EAD84B1EB87CEC00EE69DF /* EditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EAD84A1EB87CEC00EE69DF /* EditController.m */; };
+		58EAD84E1EB9797100EE69DF /* LViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EAD84D1EB9797100EE69DF /* LViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58B0BB151EB326EC00D50F34 /* CCEditUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCEditUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B0BB191EB326EC00D50F34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58B0BB1B1EB326EC00D50F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58B0BB1C1EB326EC00D50F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58B0BB1E1EB326EC00D50F34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58B0BB1F1EB326EC00D50F34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58B0BB221EB326EC00D50F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58B0BB241EB326EC00D50F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58B0BB271EB326EC00D50F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58B0BB291EB326EC00D50F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B0BB311EB32FA100D50F34 /* NSString+cc_Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+cc_Validate.h"; sourceTree = "<group>"; };
+		58B0BB321EB32FA100D50F34 /* NSString+cc_Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+cc_Validate.m"; sourceTree = "<group>"; };
+		58B0BB331EB32FA100D50F34 /* CCEditUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditUtil.h; sourceTree = "<group>"; };
+		58B0BB351EB32FA100D50F34 /* CCEditBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditBaseController.h; sourceTree = "<group>"; };
+		58B0BB361EB32FA100D50F34 /* CCEditBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEditBaseController.m; sourceTree = "<group>"; };
+		58B0BB371EB32FA100D50F34 /* CCEditMultiEnterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditMultiEnterController.h; sourceTree = "<group>"; };
+		58B0BB381EB32FA100D50F34 /* CCEditMultiEnterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEditMultiEnterController.m; sourceTree = "<group>"; };
+		58B0BB391EB32FA100D50F34 /* CCEditMultiEnterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCEditMultiEnterController.xib; sourceTree = "<group>"; };
+		58B0BB3A1EB32FA100D50F34 /* CCEditSingleEnterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditSingleEnterController.h; sourceTree = "<group>"; };
+		58B0BB3B1EB32FA100D50F34 /* CCEditSingleEnterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEditSingleEnterController.m; sourceTree = "<group>"; };
+		58B0BB3C1EB32FA100D50F34 /* CCEditSingleEnterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCEditSingleEnterController.xib; sourceTree = "<group>"; };
+		58B0BB3D1EB32FA100D50F34 /* CCEditSingleSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditSingleSelectController.h; sourceTree = "<group>"; };
+		58B0BB3E1EB32FA100D50F34 /* CCEditSingleSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEditSingleSelectController.m; sourceTree = "<group>"; };
+		58B0BB3F1EB32FA100D50F34 /* CCEditSingleSelectController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCEditSingleSelectController.xib; sourceTree = "<group>"; };
+		58B0BB411EB32FA100D50F34 /* CCEditBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditBase.h; sourceTree = "<group>"; };
+		58B0BB421EB32FA100D50F34 /* CCEditBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEditBase.m; sourceTree = "<group>"; };
+		58B0BB431EB32FA100D50F34 /* CCEditMultiEnter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditMultiEnter.h; sourceTree = "<group>"; };
+		58B0BB441EB32FA100D50F34 /* CCEditMultiEnter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEditMultiEnter.m; sourceTree = "<group>"; };
+		58B0BB451EB32FA100D50F34 /* CCEditSingleEnter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditSingleEnter.h; sourceTree = "<group>"; };
+		58B0BB461EB32FA100D50F34 /* CCEditSingleEnter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEditSingleEnter.m; sourceTree = "<group>"; };
+		58B0BB471EB32FA100D50F34 /* CCEditSingleSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditSingleSelect.h; sourceTree = "<group>"; };
+		58B0BB481EB32FA100D50F34 /* CCEditSingleSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEditSingleSelect.m; sourceTree = "<group>"; };
+		58B0BB491EB32FA100D50F34 /* CCEditUtilChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditUtilChannel.h; sourceTree = "<group>"; };
+		58B0BB4A1EB32FA100D50F34 /* CCEditUtilValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditUtilValidate.h; sourceTree = "<group>"; };
+		58B0BB4C1EB32FA100D50F34 /* CCTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTextView.h; sourceTree = "<group>"; };
+		58B0BB4D1EB32FA100D50F34 /* CCTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTextView.m; sourceTree = "<group>"; };
+		58EAD8441EB87A1800EE69DF /* Two.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Two.storyboard; sourceTree = "<group>"; };
+		58EAD8471EB87B7E00EE69DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/One.storyboard; sourceTree = "<group>"; };
+		58EAD8491EB87CEC00EE69DF /* EditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditController.h; sourceTree = "<group>"; };
+		58EAD84A1EB87CEC00EE69DF /* EditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditController.m; sourceTree = "<group>"; };
+		58EAD84C1EB9797100EE69DF /* LViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LViewController.h; sourceTree = "<group>"; };
+		58EAD84D1EB9797100EE69DF /* LViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B0BB121EB326EC00D50F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58B0BB0C1EB326EC00D50F34 = {
+			isa = PBXGroup;
+			children = (
+				58B0BB171EB326EC00D50F34 /* CCEditUtil */,
+				58B0BB161EB326EC00D50F34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58B0BB161EB326EC00D50F34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58B0BB151EB326EC00D50F34 /* CCEditUtil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B0BB171EB326EC00D50F34 /* CCEditUtil */ = {
+			isa = PBXGroup;
+			children = (
+				58B0BB2F1EB32FA100D50F34 /* CCEditUtil */,
+				58B0BB1B1EB326EC00D50F34 /* AppDelegate.h */,
+				58B0BB1C1EB326EC00D50F34 /* AppDelegate.m */,
+				58B0BB1E1EB326EC00D50F34 /* ViewController.h */,
+				58B0BB1F1EB326EC00D50F34 /* ViewController.m */,
+				58EAD8491EB87CEC00EE69DF /* EditController.h */,
+				58EAD84A1EB87CEC00EE69DF /* EditController.m */,
+				58B0BB211EB326EC00D50F34 /* Main.storyboard */,
+				58EAD8461EB87B7E00EE69DF /* One.storyboard */,
+				58EAD8441EB87A1800EE69DF /* Two.storyboard */,
+				58B0BB241EB326EC00D50F34 /* Assets.xcassets */,
+				58B0BB261EB326EC00D50F34 /* LaunchScreen.storyboard */,
+				58B0BB291EB326EC00D50F34 /* Info.plist */,
+				58B0BB181EB326EC00D50F34 /* Supporting Files */,
+				58EAD84C1EB9797100EE69DF /* LViewController.h */,
+				58EAD84D1EB9797100EE69DF /* LViewController.m */,
+			);
+			path = CCEditUtil;
+			sourceTree = "<group>";
+		};
+		58B0BB181EB326EC00D50F34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58B0BB191EB326EC00D50F34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58B0BB2F1EB32FA100D50F34 /* CCEditUtil */ = {
+			isa = PBXGroup;
+			children = (
+				58B0BB301EB32FA100D50F34 /* Category */,
+				58B0BB331EB32FA100D50F34 /* CCEditUtil.h */,
+				58B0BB341EB32FA100D50F34 /* Controller */,
+				58B0BB401EB32FA100D50F34 /* Model */,
+				58B0BB4B1EB32FA100D50F34 /* View */,
+			);
+			path = CCEditUtil;
+			sourceTree = "<group>";
+		};
+		58B0BB301EB32FA100D50F34 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				58B0BB311EB32FA100D50F34 /* NSString+cc_Validate.h */,
+				58B0BB321EB32FA100D50F34 /* NSString+cc_Validate.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		58B0BB341EB32FA100D50F34 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				58B0BB351EB32FA100D50F34 /* CCEditBaseController.h */,
+				58B0BB361EB32FA100D50F34 /* CCEditBaseController.m */,
+				58B0BB371EB32FA100D50F34 /* CCEditMultiEnterController.h */,
+				58B0BB381EB32FA100D50F34 /* CCEditMultiEnterController.m */,
+				58B0BB391EB32FA100D50F34 /* CCEditMultiEnterController.xib */,
+				58B0BB3A1EB32FA100D50F34 /* CCEditSingleEnterController.h */,
+				58B0BB3B1EB32FA100D50F34 /* CCEditSingleEnterController.m */,
+				58B0BB3C1EB32FA100D50F34 /* CCEditSingleEnterController.xib */,
+				58B0BB3D1EB32FA100D50F34 /* CCEditSingleSelectController.h */,
+				58B0BB3E1EB32FA100D50F34 /* CCEditSingleSelectController.m */,
+				58B0BB3F1EB32FA100D50F34 /* CCEditSingleSelectController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		58B0BB401EB32FA100D50F34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58B0BB411EB32FA100D50F34 /* CCEditBase.h */,
+				58B0BB421EB32FA100D50F34 /* CCEditBase.m */,
+				58B0BB431EB32FA100D50F34 /* CCEditMultiEnter.h */,
+				58B0BB441EB32FA100D50F34 /* CCEditMultiEnter.m */,
+				58B0BB451EB32FA100D50F34 /* CCEditSingleEnter.h */,
+				58B0BB461EB32FA100D50F34 /* CCEditSingleEnter.m */,
+				58B0BB471EB32FA100D50F34 /* CCEditSingleSelect.h */,
+				58B0BB481EB32FA100D50F34 /* CCEditSingleSelect.m */,
+				58B0BB491EB32FA100D50F34 /* CCEditUtilChannel.h */,
+				58B0BB4A1EB32FA100D50F34 /* CCEditUtilValidate.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58B0BB4B1EB32FA100D50F34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58B0BB4C1EB32FA100D50F34 /* CCTextView.h */,
+				58B0BB4D1EB32FA100D50F34 /* CCTextView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B0BB141EB326EC00D50F34 /* CCEditUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B0BB2C1EB326EC00D50F34 /* Build configuration list for PBXNativeTarget "CCEditUtil" */;
+			buildPhases = (
+				58B0BB111EB326EC00D50F34 /* Sources */,
+				58B0BB121EB326EC00D50F34 /* Frameworks */,
+				58B0BB131EB326EC00D50F34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCEditUtil;
+			productName = CCEditUtil;
+			productReference = 58B0BB151EB326EC00D50F34 /* CCEditUtil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B0BB0D1EB326EC00D50F34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ziooooo;
+				TargetAttributes = {
+					58B0BB141EB326EC00D50F34 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 462SDB9445;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 58B0BB101EB326EC00D50F34 /* Build configuration list for PBXProject "CCEditUtil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58B0BB0C1EB326EC00D50F34;
+			productRefGroup = 58B0BB161EB326EC00D50F34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B0BB141EB326EC00D50F34 /* CCEditUtil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58B0BB131EB326EC00D50F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B0BB551EB32FA100D50F34 /* CCEditSingleSelectController.xib in Resources */,
+				58B0BB511EB32FA100D50F34 /* CCEditMultiEnterController.xib in Resources */,
+				58EAD8451EB87A1800EE69DF /* Two.storyboard in Resources */,
+				58B0BB281EB326EC00D50F34 /* LaunchScreen.storyboard in Resources */,
+				58B0BB251EB326EC00D50F34 /* Assets.xcassets in Resources */,
+				58B0BB531EB32FA100D50F34 /* CCEditSingleEnterController.xib in Resources */,
+				58B0BB231EB326EC00D50F34 /* Main.storyboard in Resources */,
+				58EAD8481EB87B7E00EE69DF /* One.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B0BB111EB326EC00D50F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B0BB201EB326EC00D50F34 /* ViewController.m in Sources */,
+				58B0BB1D1EB326EC00D50F34 /* AppDelegate.m in Sources */,
+				58B0BB501EB32FA100D50F34 /* CCEditMultiEnterController.m in Sources */,
+				58B0BB5A1EB32FA100D50F34 /* CCTextView.m in Sources */,
+				58B0BB541EB32FA100D50F34 /* CCEditSingleSelectController.m in Sources */,
+				58B0BB571EB32FA100D50F34 /* CCEditMultiEnter.m in Sources */,
+				58B0BB591EB32FA100D50F34 /* CCEditSingleSelect.m in Sources */,
+				58EAD84E1EB9797100EE69DF /* LViewController.m in Sources */,
+				58EAD84B1EB87CEC00EE69DF /* EditController.m in Sources */,
+				58B0BB581EB32FA100D50F34 /* CCEditSingleEnter.m in Sources */,
+				58B0BB4F1EB32FA100D50F34 /* CCEditBaseController.m in Sources */,
+				58B0BB1A1EB326EC00D50F34 /* main.m in Sources */,
+				58B0BB521EB32FA100D50F34 /* CCEditSingleEnterController.m in Sources */,
+				58B0BB4E1EB32FA100D50F34 /* NSString+cc_Validate.m in Sources */,
+				58B0BB561EB32FA100D50F34 /* CCEditBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58B0BB211EB326EC00D50F34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B0BB221EB326EC00D50F34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58B0BB261EB326EC00D50F34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B0BB271EB326EC00D50F34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		58EAD8461EB87B7E00EE69DF /* One.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58EAD8471EB87B7E00EE69DF /* Base */,
+			);
+			name = One.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58B0BB2A1EB326EC00D50F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B0BB2B1EB326EC00D50F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B0BB2D1EB326EC00D50F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 462SDB9445;
+				INFOPLIST_FILE = CCEditUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zio.CCEditUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3cb520d5-2332-4d49-b826-e6cf253b7f2f";
+				PROVISIONING_PROFILE_SPECIFIER = GeneralTest;
+			};
+			name = Debug;
+		};
+		58B0BB2E1EB326EC00D50F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 462SDB9445;
+				INFOPLIST_FILE = CCEditUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zio.CCEditUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3cb520d5-2332-4d49-b826-e6cf253b7f2f";
+				PROVISIONING_PROFILE_SPECIFIER = GeneralTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B0BB101EB326EC00D50F34 /* Build configuration list for PBXProject "CCEditUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B0BB2A1EB326EC00D50F34 /* Debug */,
+				58B0BB2B1EB326EC00D50F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B0BB2C1EB326EC00D50F34 /* Build configuration list for PBXNativeTarget "CCEditUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B0BB2D1EB326EC00D50F34 /* Debug */,
+				58B0BB2E1EB326EC00D50F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B0BB0D1EB326EC00D50F34 /* Project object */;
+}
