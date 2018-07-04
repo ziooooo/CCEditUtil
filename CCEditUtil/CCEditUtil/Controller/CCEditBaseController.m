@@ -18,7 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.edgesForExtendedLayout = UIRectEdgeNone;
-    [self cc_setupNavItemWithTitle:@"完成"];
+    self.navigationController.view.backgroundColor = [UIColor whiteColor];
+    [self cc_setupNavItemWithTitle:@"done"];
 }
 
 -(void)viewWillDisappear:(BOOL)animated

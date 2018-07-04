@@ -20,7 +20,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     //初始化控件内容
     [self setupComponentContent];
 }

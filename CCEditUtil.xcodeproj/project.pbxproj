@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58200AF420EC7A4700ACA66D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 58200AF320EC7A4600ACA66D /* User.m */; };
 		58B0BB1A1EB326EC00D50F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB191EB326EC00D50F34 /* main.m */; };
 		58B0BB1D1EB326EC00D50F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB1C1EB326EC00D50F34 /* AppDelegate.m */; };
 		58B0BB201EB326EC00D50F34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB1F1EB326EC00D50F34 /* ViewController.m */; };
@@ -26,13 +27,11 @@
 		58B0BB581EB32FA100D50F34 /* CCEditSingleEnter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB461EB32FA100D50F34 /* CCEditSingleEnter.m */; };
 		58B0BB591EB32FA100D50F34 /* CCEditSingleSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB481EB32FA100D50F34 /* CCEditSingleSelect.m */; };
 		58B0BB5A1EB32FA100D50F34 /* CCTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB4D1EB32FA100D50F34 /* CCTextView.m */; };
-		58EAD8451EB87A1800EE69DF /* Two.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58EAD8441EB87A1800EE69DF /* Two.storyboard */; };
-		58EAD8481EB87B7E00EE69DF /* One.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58EAD8461EB87B7E00EE69DF /* One.storyboard */; };
-		58EAD84B1EB87CEC00EE69DF /* EditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EAD84A1EB87CEC00EE69DF /* EditController.m */; };
-		58EAD84E1EB9797100EE69DF /* LViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EAD84D1EB9797100EE69DF /* LViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58200AF220EC7A4600ACA66D /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		58200AF320EC7A4600ACA66D /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		58B0BB151EB326EC00D50F34 /* CCEditUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCEditUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B0BB191EB326EC00D50F34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58B0BB1B1EB326EC00D50F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,12 +68,6 @@
 		58B0BB4A1EB32FA100D50F34 /* CCEditUtilValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditUtilValidate.h; sourceTree = "<group>"; };
 		58B0BB4C1EB32FA100D50F34 /* CCTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTextView.h; sourceTree = "<group>"; };
 		58B0BB4D1EB32FA100D50F34 /* CCTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTextView.m; sourceTree = "<group>"; };
-		58EAD8441EB87A1800EE69DF /* Two.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Two.storyboard; sourceTree = "<group>"; };
-		58EAD8471EB87B7E00EE69DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/One.storyboard; sourceTree = "<group>"; };
-		58EAD8491EB87CEC00EE69DF /* EditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditController.h; sourceTree = "<group>"; };
-		58EAD84A1EB87CEC00EE69DF /* EditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditController.m; sourceTree = "<group>"; };
-		58EAD84C1EB9797100EE69DF /* LViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LViewController.h; sourceTree = "<group>"; };
-		58EAD84D1EB9797100EE69DF /* LViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,17 +105,13 @@
 				58B0BB1C1EB326EC00D50F34 /* AppDelegate.m */,
 				58B0BB1E1EB326EC00D50F34 /* ViewController.h */,
 				58B0BB1F1EB326EC00D50F34 /* ViewController.m */,
-				58EAD8491EB87CEC00EE69DF /* EditController.h */,
-				58EAD84A1EB87CEC00EE69DF /* EditController.m */,
+				58200AF220EC7A4600ACA66D /* User.h */,
+				58200AF320EC7A4600ACA66D /* User.m */,
 				58B0BB211EB326EC00D50F34 /* Main.storyboard */,
-				58EAD8461EB87B7E00EE69DF /* One.storyboard */,
-				58EAD8441EB87A1800EE69DF /* Two.storyboard */,
 				58B0BB241EB326EC00D50F34 /* Assets.xcassets */,
 				58B0BB261EB326EC00D50F34 /* LaunchScreen.storyboard */,
 				58B0BB291EB326EC00D50F34 /* Info.plist */,
 				58B0BB181EB326EC00D50F34 /* Supporting Files */,
-				58EAD84C1EB9797100EE69DF /* LViewController.h */,
-				58EAD84D1EB9797100EE69DF /* LViewController.m */,
 			);
 			path = CCEditUtil;
 			sourceTree = "<group>";
@@ -261,12 +250,10 @@
 			files = (
 				58B0BB551EB32FA100D50F34 /* CCEditSingleSelectController.xib in Resources */,
 				58B0BB511EB32FA100D50F34 /* CCEditMultiEnterController.xib in Resources */,
-				58EAD8451EB87A1800EE69DF /* Two.storyboard in Resources */,
 				58B0BB281EB326EC00D50F34 /* LaunchScreen.storyboard in Resources */,
 				58B0BB251EB326EC00D50F34 /* Assets.xcassets in Resources */,
 				58B0BB531EB32FA100D50F34 /* CCEditSingleEnterController.xib in Resources */,
 				58B0BB231EB326EC00D50F34 /* Main.storyboard in Resources */,
-				58EAD8481EB87B7E00EE69DF /* One.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,9 +271,8 @@
 				58B0BB541EB32FA100D50F34 /* CCEditSingleSelectController.m in Sources */,
 				58B0BB571EB32FA100D50F34 /* CCEditMultiEnter.m in Sources */,
 				58B0BB591EB32FA100D50F34 /* CCEditSingleSelect.m in Sources */,
-				58EAD84E1EB9797100EE69DF /* LViewController.m in Sources */,
-				58EAD84B1EB87CEC00EE69DF /* EditController.m in Sources */,
 				58B0BB581EB32FA100D50F34 /* CCEditSingleEnter.m in Sources */,
+				58200AF420EC7A4700ACA66D /* User.m in Sources */,
 				58B0BB4F1EB32FA100D50F34 /* CCEditBaseController.m in Sources */,
 				58B0BB1A1EB326EC00D50F34 /* main.m in Sources */,
 				58B0BB521EB32FA100D50F34 /* CCEditSingleEnterController.m in Sources */,
@@ -312,14 +298,6 @@
 				58B0BB271EB326EC00D50F34 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		58EAD8461EB87B7E00EE69DF /* One.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58EAD8471EB87B7E00EE69DF /* Base */,
-			);
-			name = One.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -421,6 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 462SDB9445;
 				INFOPLIST_FILE = CCEditUtil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.zio.CCEditUtil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,6 +414,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 462SDB9445;
 				INFOPLIST_FILE = CCEditUtil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.zio.CCEditUtil;
 				PRODUCT_NAME = "$(TARGET_NAME)";

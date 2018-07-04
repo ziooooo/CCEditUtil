@@ -33,10 +33,5 @@
     
 }
 
--(void)dealloc
-{
-    NSLog(@"edit dealloc");
-}
-
 
 @end
